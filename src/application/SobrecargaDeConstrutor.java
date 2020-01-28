@@ -10,7 +10,7 @@ public class SobrecargaDeConstrutor {
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
@@ -38,7 +38,7 @@ public class SobrecargaDeConstrutor {
 		product.removeProducts(quantity);
 		System.out.println();
 		System.out.println("Updated data: " + product);
-		sc.close();
+		//sc.close();
 
 	}
 
